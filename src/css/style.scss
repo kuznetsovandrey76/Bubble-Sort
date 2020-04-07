@@ -1,0 +1,40 @@
+body {
+    margin: 1rem;
+    background: lavenderblush;
+    font-family: 'Comfortaa', cursive;
+}
+
+.header {
+    margin-top: 1rem;
+
+    &-text {
+        margin-bottom: 0.2rem;
+    }
+}
+
+.buttons {
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    
+    & button {
+        background: #28a745;
+        color: white;
+        border: none;
+        margin-bottom: 0.5rem;
+        padding-top: 0.2rem;
+
+        &:hover {
+            background: limegreen;
+        }
+    }
+
+    & button:disabled {
+        background: #6c757d;
+    }
+}
+
+.result {
+    & canvas {
+        margin-bottom: 1rem;
+    }
+}
